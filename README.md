@@ -1,5 +1,4 @@
 
-![CI Status](https://travis-ci.org/joaolpgomes/shopping-cart.svg?branch=master)
 
 # Pig Latin Converter
 
