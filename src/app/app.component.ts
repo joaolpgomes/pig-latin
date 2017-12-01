@@ -37,7 +37,6 @@ export class AppComponent {
   translate(searchValue: string) {
       if (this.search === undefined || this.search.original !== searchValue) {
         const translated = this.appService.translate(searchValue);
-        console.log(translated);
         this.search = new Search(searchValue, translated);
       }
   }
